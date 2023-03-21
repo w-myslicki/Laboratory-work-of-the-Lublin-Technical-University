@@ -1,4 +1,4 @@
 #ifndef TEMPERATURCONVERSIONFROMFAHRENHEITTOCELSIUS_H
 #define TEMPERATURCONVERSIONFROMFAHRENHEITTOCELSIUS_H
-void runConverter (void);
-#endif 
+void runTemperaturConversionFromFahrenheitToCelsius(void);
+#endif

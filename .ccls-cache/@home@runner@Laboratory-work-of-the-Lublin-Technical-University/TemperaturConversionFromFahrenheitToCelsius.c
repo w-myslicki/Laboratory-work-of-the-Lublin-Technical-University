@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void runConverter(void) {
+void runTemperaturConversionFromFahrenheitToCelsius(void) {
     float F, C;
     
     printf("Enter the temperature in degrees Fahrenheit: ");
