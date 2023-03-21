@@ -21,7 +21,7 @@ void runTemperaturConversionFromFahrenheitToCelsius(void) {
 void runRandomNumber(void) {
 
   int min, max, random;
-  srand(time(NULL)); 
+  srand(time(NULL));
 
   printf("Enter Max and Min limits of the limit:");
   scanf("%d %d", &min, &max);
@@ -34,11 +34,12 @@ void runFloatRandomNumber(void) {
 
   float min, max, random;
   int places;
-  srand(time(NULL)); 
+  srand(time(NULL));
 
-  printf("Enter Max and Min limits of the limit with number of decimal places:");
+  printf(
+      "Enter Max and Min limits of the limit with number of decimal places:");
   scanf("%f %f %d", &min, &max, &places);
 
-  random = ((float)rand()/RAND_MAX) * (max - min) + min;
+  random = ((float)rand() / RAND_MAX) * (max - min) + min;
   printf("Random number is: %.*f\n", places, random);
 }

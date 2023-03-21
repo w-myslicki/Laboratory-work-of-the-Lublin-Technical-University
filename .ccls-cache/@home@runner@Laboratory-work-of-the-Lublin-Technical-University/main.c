@@ -1,7 +1,7 @@
-#include "FunctionsLab2.h"
+#include "FunctionsLab4.h"
 #include <stdio.h>
 
 int main(void) {
-  runFloatRandomNumber();
+  runSort();
   return 0;
 }
