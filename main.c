@@ -1,6 +1,7 @@
+#include "TemperaturConversionFromFahrenheitToCelsius.h"
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World\n");
+  runConverter();
   return 0;
 }
